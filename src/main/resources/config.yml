@@ -1,0 +1,23 @@
+# Traders Plugin Configuration
+
+# Spawn settings
+spawn:
+  # Check interval in seconds for spawning traders
+  check-interval: 300
+  # Chance per check (0.0 - 1.0)
+  spawn-chance: 0.3
+  # Maximum traders per player
+  max-per-player: 3
+  # Minimum distance between traders
+  min-distance: 50
+
+# Despawn settings
+despawn:
+  # Time in seconds before trader despawns
+  min-time: 600
+  max-time: 900
+
+# Trade settings
+trades:
+  # Number of trades per trader
+  count: 5

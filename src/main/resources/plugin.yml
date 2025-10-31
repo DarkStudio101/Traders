@@ -1,0 +1,16 @@
+name: Traders
+version: '${project.version}'
+main: com.notitzdark.traders.TradersPlugin
+api-version: '1.16'
+description: Special friendly traders with randomized trades
+
+commands:
+  spawntrader:
+    description: Manually spawn a trader
+    usage: /spawntrader <overworld|nether>
+    permission: traders.spawn
+
+permissions:
+  traders.spawn:
+    description: Allows spawning traders manually
+    default: op
